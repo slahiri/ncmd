@@ -1,0 +1,19 @@
+{
+  "name": "filesystem-test",
+  "version": "1.0.0",
+  "description": "Sample code to play around with fs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://lahirs2@github.com/sid-nodejs/filesystem-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sid-nodejs/filesystem-test/issues"
+  },
+  "homepage": "https://github.com/sid-nodejs/filesystem-test#readme"
+}
