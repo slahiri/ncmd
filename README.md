@@ -1,13 +1,13 @@
 # ncmd
 
-This is a simple implementation of file management. The script will recursively search files from a source directory and copy the file to a destination directory organized by folders based on date created field.
+This is a simple implementation of file management. The the current command will recursively search files from a source directory and copy the file to a destination directory organized by folders based on date created field.
 
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
 
-[travis-image]: https://travis-ci.org/sid-vicious-utilities/organize-images.svg?branch=master
-[travis-url]: https://travis-ci.org/sid-vicious-utilities/organize-images
+[travis-image]: https://travis-ci.org/cli-utilities/ncmd.svg?branch=master
+[travis-url]: https://travis-ci.org/cli-utilities/ncmd
 [npm-image]: https://img.shields.io/npm/l/ncmd.svg
 [npm-url]: https://www.npmjs.com/package/ncmd
 [downloads-image]: https://img.shields.io/npm/dt/ncmd.svg
@@ -15,7 +15,10 @@ This is a simple implementation of file management. The script will recursively 
 
 ## Installation
 
-    $ npm install organize-images
+    $ npm install ncmd
+    
+    #if the script does not create a symlink due to permissions
+    $ npm link
 
 ## Usage
   
