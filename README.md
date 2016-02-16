@@ -7,9 +7,17 @@ This is a simple implementation of image management. The script will recursively
     $ npm install organize-images
 
 ## Usage
+  
+  Usage: index [options]
 
+  Options:
 
+    -h, --help                output usage information
+    -V, --version             output the version number
+    -S, --source <path>       source directory of the images
+    -D, --destination <path>  destination directory of the organized images
+    -v, --verbose             verbose mode
 
 ## License
 
-  MIT
+  Apache-2.0

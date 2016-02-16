@@ -1,3 +1,4 @@
+#!/usr/bin/env node --harmony
 'use strict';
 
 var promise = require("bluebird");
@@ -47,8 +48,7 @@ walker.on("file", function (root, stat, next) {
 		+ stat.name;
 
 	fs.copyAsync(sourcePath, targetPath).then(function(){
-		log.debug("Source: ", sourcePath);
-		log.debug("Destination: ", targetPath);
+		//TODO: Implement progress bar
 	}).catch(function(error){
 		log.error(error);
 	})
