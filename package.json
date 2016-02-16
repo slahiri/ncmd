@@ -1,7 +1,7 @@
 {
   "name": "organize-images",
-  "version": "0.0.1",
-  "description": "Sample code to play around with fs",
+  "version": "0.0.2",
+  "description": "Commandline utility to organize images",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,9 +16,9 @@
     "snippet": "./index.js"
   },
   "bugs": {
-    "url": "https://github.com/sid-nodejs/filesystem-test/issues"
+    "url": "https://github.com/sid-vicious-utilities/organize-images/issues"
   },
-  "homepage": "https://github.com/sid-nodejs/filesystem-test#readme",
+  "homepage": "https://github.com/sid-vicious-utilities/organize-images.git#readme",
   "keywords": [
     "organize",
     "images",
