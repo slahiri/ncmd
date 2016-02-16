@@ -13,8 +13,8 @@ This is a simple implementation of file management. The the current command will
 [npm-url]: https://www.npmjs.com/package/ncmd
 [downloads-image]: https://img.shields.io/npm/dt/ncmd.svg
 [downloads-url]: https://www.npmjs.com/package/ncmd
-[coveralls-image]: https://coveralls.io/github/cli-utilities/ncmd
-[coveralls-url]: https://img.shields.io/coveralls/cli-utilities/ncmd.svg
+[coveralls-image]: https://img.shields.io/coveralls/cli-utilities/ncmd.svg
+[coveralls-url]: https://coveralls.io/github/cli-utilities/ncmd
 
 ## Installation
 
