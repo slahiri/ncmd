@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://lahirs2@github.com/sid-nodejs/filesystem-test.git"
+    "url": "git+https://lahirs2@github.com/cli-utilities/ncmd.git"
   },
   "author": "Siddhartha Lahiri <siddhartha.lahiri@gmail.com> (http://lahiri.io)",
   "license": "Apache-2.0",
