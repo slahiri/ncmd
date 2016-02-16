@@ -1,17 +1,15 @@
-# filesystem-test
-Create a simple command line utility which takes a directory as the source path of images, sorts them by the "date taken" otherwise "date modified" and then copies them over to a destination folder  in separate date-wise folders.
+# organize-images
 
-# Algorithm
-- ls source path
-- get last update date for each file
-- create date folder in targer path is file does not exist
-- move file to target path
+This is a simple implementation of image management. The script will recursively search files from a source directory and copy the file to a destination directory organized by folders based on date created field.
+
+## Installation
+
+    $ npm install organize-images
+
+## Usage
 
 
-# Features
-- Logging
-- Promises
-- Commander
-- Unit Testing
-- JSLint
-- Exception Handling
+
+## License
+
+  MIT

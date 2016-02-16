@@ -27,14 +27,37 @@ if (typeof program.source === 'undefined' || typeof program.destination === 'und
 	process.exit(1);
 }
 
-var walker = walk.walk(program.source);
+var options = {
+	followLinks: false
+}
 
-walker.on("files", function (root, fileStats, next) {
-	log.info(fileStats);
+program.destination = program.destination.replace(/\/?$/, '/');
+
+var walker = walk.walk(program.source, options);
+
+walker.on("file", function (root, stat, next) {
+	
+	var sourcePath = root + '/' + stat.name;
+	
+	var targetPath = program.destination 
+		+ stat.birthtime.getFullYear()
+		+ stat.birthtime.getMonth()
+		+ stat.birthtime.getDate()
+		+ '/'
+		+ stat.name;
+
+	fs.copyAsync(sourcePath, targetPath).then(function(){
+		log.debug("Source: ", sourcePath);
+		log.debug("Destination: ", targetPath);
+	}).catch(function(error){
+		log.error(error);
+	})
+
+	next();
 });
 
-walker.on("errors", function (root, nodeStatsArray, next) {
-	log.error(nodeStatsArray);
+walker.on("errors", function (root, stat, next) {
+	log.error(stat);
 	next();
 });
 
