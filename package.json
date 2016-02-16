@@ -1,0 +1,33 @@
+{
+  "name": "organize-images",
+  "version": "1.0.0",
+  "description": "Sample code to play around with fs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://lahirs2@github.com/sid-nodejs/filesystem-test.git"
+  },
+  "author": "Siddhartha Lahiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sid-nodejs/filesystem-test/issues"
+  },
+  "homepage": "https://github.com/sid-nodejs/filesystem-test#readme",
+  "keywords": [
+    "organize",
+    "images",
+    "filesystem"
+  ],
+  "dependencies": {
+    "bluebird": "^3.3.1",
+    "bunyan": "^1.6.0",
+    "bunyan-pretty-stream": "^1.0.1",
+    "commander": "^2.9.0",
+    "fs-extra-promise": "^0.3.1",
+    "mfs": "^0.1.1",
+    "walk": "^2.3.9"
+  }
+}
