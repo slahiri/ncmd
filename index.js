@@ -14,8 +14,12 @@ var log = bunyan.createLogger({
 	stream: new pretty()
 });
 
+var options = {
+	followLinks: false
+}
+
 program
-  .version('0.0.1')
+  .version('0.0.3')
   .option('-S, --source <path>', 'source directory of the images')
   .option('-D, --destination <path>', 'destination directory of the organized images')
   .option('-v, --verbose', 'verbose mode')
@@ -28,14 +32,9 @@ if (typeof program.source === 'undefined' || typeof program.destination === 'und
 	process.exit(1);
 }
 
-var options = {
-	followLinks: false
-}
-
 program.destination = program.destination.replace(/\/?$/, '/');
 
 var walker = walk.walk(program.source, options);
-
 walker.on("file", function (root, stat, next) {
 	
 	var sourcePath = root + '/' + stat.name;
