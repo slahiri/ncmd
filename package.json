@@ -1,8 +1,8 @@
 {
-  "name": "organize-images",
+  "name": "ncmd",
   "version": "0.0.2",
-  "description": "Commandline utility to organize images",
-  "main": "index.js",
+  "description": "Command line utility to organize files",
+  "main": "ncmd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,12 +13,12 @@
   "author": "Siddhartha Lahiri <siddhartha.lahiri@gmail.com> (http://lahiri.io)",
   "license": "Apache-2.0",
   "bin": {
-    "snippet": "./index.js"
+    "ncmd": "./index.js"
   },
   "bugs": {
-    "url": "https://github.com/sid-vicious-utilities/organize-images/issues"
+    "url": "https://github.com/cli-utilities/ncmd/issues"
   },
-  "homepage": "https://github.com/sid-vicious-utilities/organize-images.git#readme",
+  "homepage": "https://github.com/cli-utilities/ncmd.git#readme",
   "keywords": [
     "organize",
     "images",
