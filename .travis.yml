@@ -11,3 +11,4 @@ before_install:
 
 after_success:
   - eslint index.js
+  - npm run coveralls
