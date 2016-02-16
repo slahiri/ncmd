@@ -1,6 +1,6 @@
 {
   "name": "organize-images",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Sample code to play around with fs",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,11 @@
     "type": "git",
     "url": "git+https://lahirs2@github.com/sid-nodejs/filesystem-test.git"
   },
-  "author": "Siddhartha Lahiri",
-  "license": "ISC",
+  "author": "Siddhartha Lahiri <siddhartha.lahiri@gmail.com> (http://lahiri.io)",
+  "license": "Apache-2.0",
+  "bin": {
+    "snippet": "./index.js"
+  },
   "bugs": {
     "url": "https://github.com/sid-nodejs/filesystem-test/issues"
   },
@@ -25,9 +28,11 @@
     "bluebird": "^3.3.1",
     "bunyan": "^1.6.0",
     "bunyan-pretty-stream": "^1.0.1",
+    "chalk": "^1.1.1",
     "commander": "^2.9.0",
     "fs-extra-promise": "^0.3.1",
     "mfs": "^0.1.1",
+    "progress": "^1.1.8",
     "walk": "^2.3.9"
   }
 }
