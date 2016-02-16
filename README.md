@@ -8,13 +8,13 @@ This is a simple implementation of image management. The script will recursively
 [![downloads][downloads-image]][downloads-url]
 
 [travis-image]: https://img.shields.io/travis/then/promise.svg?style=flat
-[travis-url]: https://travis-ci.org/then/promise
+[travis-url]: https://travis-ci.org/then/organize-images
 [dep-image]: https://img.shields.io/david/then/promise.svg?style=flat
-[dep-url]: https://david-dm.org/then/promise
+[dep-url]: https://david-dm.org/then/organize-images
 [npm-image]: https://img.shields.io/npm/v/promise.svg?style=flat
-[npm-url]: https://npmjs.org/package/promise
+[npm-url]: https://npmjs.org/package/organize-images
 [downloads-image]: https://img.shields.io/npm/dm/promise.svg?style=flat
-[downloads-url]: https://npmjs.org/package/promise
+[downloads-url]: https://npmjs.org/package/organize-images
 
 ## Installation
 
