@@ -6,7 +6,7 @@ This is a simple implementation of file management. The the current command will
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
-
+[![Codacy Badge](codacy-image)](codacy-url)
 
 [travis-image]: https://travis-ci.org/cli-utilities/ncmd.svg?branch=master
 [travis-url]: https://travis-ci.org/cli-utilities/ncmd
@@ -16,6 +16,8 @@ This is a simple implementation of file management. The the current command will
 [downloads-url]: https://www.npmjs.com/package/ncmd
 [codeclimate-image]: https://codeclimate.com/github/cli-utilities/ncmd/badges/gpa.svg
 [codeclimate-url]: https://codeclimate.com/github/cli-utilities/ncmd
+[codacy-image]: https://api.codacy.com/project/badge/grade/d4a372fb631e48a69d290169660543b8
+[codacy-url]: https://www.codacy.com/app/siddhartha-lahiri/ncmd
 
 
 ## Installation
