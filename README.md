@@ -5,7 +5,7 @@ This is a simple implementation of file management. The the current command will
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
-[![Test coverage][coveralls-image]][coveralls-url]
+[![Code Climate][codeclimate-image]][codeclimate-url]
 
 [travis-image]: https://travis-ci.org/cli-utilities/ncmd.svg?branch=master
 [travis-url]: https://travis-ci.org/cli-utilities/ncmd
@@ -13,8 +13,9 @@ This is a simple implementation of file management. The the current command will
 [npm-url]: https://www.npmjs.com/package/ncmd
 [downloads-image]: https://img.shields.io/npm/dt/ncmd.svg
 [downloads-url]: https://www.npmjs.com/package/ncmd
-[coveralls-image]: https://img.shields.io/coveralls/cli-utilities/ncmd.svg
-[coveralls-url]: https://coveralls.io/github/cli-utilities/ncmd
+[codeclimate-image]: https://codeclimate.com/github/cli-utilities/ncmd/badges/coverage.svg
+[codeclimate-url]: https://codeclimate.com/github/cli-utilities/ncmd/coverage
+
 
 ## Installation
 
