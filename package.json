@@ -6,8 +6,8 @@
   "scripts": {
     "test": "mocha test",
     "eslint": "eslint index.js",
-    "coverage": "istanbul cover ./index.js --report lcovonly -- -R spec && cat ./coverage/lcov.info",
-    "codeclimate": "codacy-coverage",
+    "coverage": "istanbul cover ./index.js --report lcovonly && cat ./coverage/lcov.info",
+    "codeclimate": "codacy-coverage < ./coverage/lcov.info",
     "codacy-coverage": "codeclimate-test-reporter < ./coverage/lcov.info",
     "cleanup": "rm -rf ./coverage"
   },
