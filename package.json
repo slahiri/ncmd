@@ -5,7 +5,8 @@
   "main": "ncmd.js",
   "scripts": {
     "test": "mocha test",
-    "eslint": "eslint"
+    "coverage": "istanbul cover ./index.js",
+    "eslint": "eslint index.js"
   },
   "repository": {
     "type": "git",

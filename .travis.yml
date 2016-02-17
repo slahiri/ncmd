@@ -9,6 +9,13 @@ before_install:
   - npm install -g eslint-config-google
   - npm install -g eslint-config-xo
 
+after_script:
+  - codeclimate-test-reporter < ./coverage/lcov.info
+
 after_success:
-  - eslint index.js
-  - npm run coveralls
+  - npm run eslint
+  - npm run cover
+
+addons:
+    code_climate:
+        repo_token: 74dfed02db95fa74630289a3679e6d88edf2b0995ca1fe8f0128601f0b6ce339
