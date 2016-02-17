@@ -6,7 +6,7 @@ This is a simple implementation of file management. The the current command will
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
-[![Codacy Badge](codacy-image)](codacy-url)
+[![Codacy Badge][codacy-image]][codacy-url]
 
 [travis-image]: https://travis-ci.org/cli-utilities/ncmd.svg?branch=master
 [travis-url]: https://travis-ci.org/cli-utilities/ncmd
