@@ -1,19 +1,22 @@
 {
   "name": "ncmd",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Command line utility to organize files",
   "main": "ncmd.js",
   "scripts": {
     "test": "mocha test",
-    "coverage": "istanbul cover ./index.js",
-    "eslint": "eslint index.js"
+    "eslint": "eslint index.js",
+    "coverage": "istanbul cover ./index.js --report lcovonly && cat ./coverage/lcov.info",
+    "codeclimate": "codacy-coverage < ./coverage/lcov.info",
+    "codacy-coverage": "codeclimate-test-reporter < ./coverage/lcov.info",
+    "cleanup": "rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
     "url": "git+https://lahirs2@github.com/cli-utilities/ncmd.git"
   },
   "author": "Siddhartha Lahiri <siddhartha.lahiri@gmail.com> (http://lahiri.io)",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "bin": {
     "ncmd": "./index.js"
   },
@@ -31,6 +34,7 @@
     "bunyan": "^1.6.0",
     "bunyan-pretty-stream": "^1.0.1",
     "chalk": "^1.1.1",
+    "codacy-coverage": "^1.1.3",
     "commander": "^2.9.0",
     "eslint": "^2.1.0",
     "eslint-config-google": "^0.4.0",
