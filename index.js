@@ -18,7 +18,7 @@ var options = {
 };
 
 Program
-  .version('0.0.3')
+  .version('0.0.5')
   .option('-S, --source <path>', 'source directory of the files')
   .option('-D, --destination <path>', 'destination directory of the organized files')
   .option('-v, --verbose', 'verbose mode')
