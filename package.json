@@ -1,6 +1,6 @@
 {
   "name": "ncmd",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Command line utility to organize files",
   "main": "ncmd.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "url": "git+https://lahirs2@github.com/cli-utilities/ncmd.git"
   },
   "author": "Siddhartha Lahiri <siddhartha.lahiri@gmail.com> (http://lahiri.io)",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "bin": {
     "ncmd": "./index.js"
   },
