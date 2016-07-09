@@ -2,6 +2,10 @@
 
 This is a simple implementation of file management. The the current command will recursively search files from a source directory and copy the file to a destination directory organized by folders based on date created field.
 
+[![NPM](https://nodei.co/npm/ncmd.png?downloads=true)](https://nodei.co/npm/ncmd/)
+
+[![NPM](https://nodei.co/npm-dl/ncmd.png?months=3&height=3)](https://nodei.co/npm/ncmd/)
+
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
