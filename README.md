@@ -13,8 +13,8 @@ This is a simple implementation of file management. The the current command will
 [![Codacy Badge][codacy-image]][codacy-url]
 [![Test Coverage][testcoverage-image]][testcoverage-url]
 
-[travis-image]: https://travis-ci.org/cli-utilities/ncmd.svg?branch=master
-[travis-url]: https://travis-ci.org/cli-utilities/ncmd
+[travis-image]:https://travis-ci.org/sid2vicious/ncmd.svg?branch=master
+[travis-url]: https://travis-ci.org/sid2vicious/ncmd.svg?branch=master
 [npm-image]: https://img.shields.io/npm/l/ncmd.svg
 [npm-url]: https://www.npmjs.com/package/ncmd
 [downloads-image]: https://img.shields.io/npm/dt/ncmd.svg
