@@ -5,6 +5,7 @@ npm-debug.log*
 
 # Editor
 .idea
+atlassian-ide-plugin.xml
 
 # Runtime data
 pids
