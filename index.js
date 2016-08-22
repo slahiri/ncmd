@@ -4,7 +4,7 @@
 var Bunyan = require('bunyan');
 var Pretty = require('bunyan-pretty-stream');
 var Program = require('commander');
-var Fs = require('fs-extra-promise');
+var fs = require('fs-extra-promise');
 var Walk = require('walk');
 
 var log = Bunyan.createLogger({
@@ -20,7 +20,8 @@ var options = {
 Program
   .version('0.0.5')
   .option('-S, --source <path>', 'source directory of the files')
-  .option('-D, --destination <path>', 'destination directory of the organized files')
+  .option('-D, --destination <path>',
+		'destination directory of the organized files')
   .option('-v, --verbose', 'verbose mode')
   .parse(process.argv);
 
@@ -45,8 +46,8 @@ walker.on("file", function(root, stat, next) {
 		'/' +
 		stat.name;
 
-	Fs.copyAsync(sourcePath, targetPath).then(function() {
-		//	TODO: Implement progress bar
+	fs.copyAsync(sourcePath, targetPath).then(function() {
+
 	}).catch(function(error) {
 		log.error(error);
 	});
