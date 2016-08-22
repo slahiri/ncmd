@@ -2,10 +2,6 @@
 
 This is a simple implementation of file management. The the current command will recursively search files from a source directory and copy the file to a destination directory organized by folders based on date created field.
 
-[![NPM](https://nodei.co/npm/ncmd.png?downloads=true)](https://nodei.co/npm/ncmd/)
-
-[![NPM](https://nodei.co/npm-dl/ncmd.png?months=3&height=3)](https://nodei.co/npm/ncmd/)
-
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
@@ -23,8 +19,6 @@ This is a simple implementation of file management. The the current command will
 [codeclimate-url]: https://codeclimate.com/github/slahiri/ncmd
 [codacy-image]: https://api.codacy.com/project/badge/grade/d4a372fb631e48a69d290169660543b8
 [codacy-url]: https://www.codacy.com/app/siddhartha-lahiri/ncmd
-[testcoverage-image]: https://codeclimate.com/github/slahiri/ncmd/badges/coverage.svg
-[testcoverage-url]: https://codeclimate.com/github/slahiri/ncmd/coverage
 
 
 ## Installation
