@@ -13,7 +13,12 @@ os:
 before_install:
   - npm install -g eslint
   - npm install -g gulp
+  - npm install -g codacy-coverage
+  - npm install -g mocha-lcov-reporter
+  - npm install -g istanbul
+  - export CODACY_PROJECT_TOKEN=e6f98d57ab314d3ca87eb2765fbe225c
 
 after_script:
+  - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage && rm -rf ./coverage
   - gulp build
 

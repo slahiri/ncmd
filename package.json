@@ -1,11 +1,18 @@
 {
   "name": "ncmd",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Command line utility to organize files",
   "main": "ncmd.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/slahiri/ncmd.git"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib"
   },
   "author": "Siddhartha Lahiri <siddhartha.lahiri@gmail.com>",
   "license": "MIT",
@@ -19,14 +26,24 @@
   "keywords": [
     "organize",
     "images",
-    "filesystem"
+    "filesystem",
+    "cli",
+    "sysadmin",
+    "tools",
+    "daemon",
+    "shell",
+    "commander",
+    "command-line",
+    "exif",
+    "photography"
   ],
   "dependencies": {
     "bluebird": "3.4.1",
-    "fs-extra-promise": "0.4.0",
     "bunyan": "1.8.1",
     "bunyan-pretty-stream": "1.0.1",
     "commander": "2.9.0",
+    "exif-parser": "^0.1.9",
+    "fs-extra-promise": "0.4.0",
     "walk": "2.3.9"
   },
   "devDependencies": {

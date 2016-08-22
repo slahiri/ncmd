@@ -35,7 +35,9 @@ if (typeof Program.source === 'undefined' ||
 }
 
 Program.destination = Program.destination.replace(/\/?$/, '/');
+
 var walker = Walk.walk(Program.source, options);
+
 walker.on("file", function(root, stat, next) {
 	var sourcePath = root + '/' + stat.name;
 	var targetPath = Program.destination +
