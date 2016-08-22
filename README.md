@@ -11,10 +11,7 @@ This is a simple implementation of file management. The the current command will
 
 ## Installation
 
-    $ npm install ncmd
-    
-    #if the script does not create a symlink due to permissions
-    $ npm link
+    $ npm install ncmd -g
 
 ## Usage
   
