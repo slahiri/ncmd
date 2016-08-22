@@ -9,8 +9,6 @@ This is a simple implementation of file management. The the current command will
 [![Code Climate][codeclimate-image]][codeclimate-url]
 [![Codacy Badge][codacy-image]][codacy-url]
 
-=======
-
 ## Installation
 
     $ npm install ncmd
