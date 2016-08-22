@@ -13,18 +13,18 @@ This is a simple implementation of file management. The the current command will
 [![Codacy Badge][codacy-image]][codacy-url]
 [![Test Coverage][testcoverage-image]][testcoverage-url]
 
-[travis-image]: https://travis-ci.org/cli-utilities/ncmd.svg?branch=master
-[travis-url]: https://travis-ci.org/cli-utilities/ncmd
+[travis-image]: https://travis-ci.org/slahiri/ncmd.svg?branch=master
+[travis-url]: https://travis-ci.org/slahiri/ncmd
 [npm-image]: https://img.shields.io/npm/l/ncmd.svg
 [npm-url]: https://www.npmjs.com/package/ncmd
 [downloads-image]: https://img.shields.io/npm/dt/ncmd.svg
 [downloads-url]: https://www.npmjs.com/package/ncmd
-[codeclimate-image]: https://codeclimate.com/github/cli-utilities/ncmd/badges/gpa.svg
-[codeclimate-url]: https://codeclimate.com/github/cli-utilities/ncmd
+[codeclimate-image]: https://codeclimate.com/github/slahiri/ncmd/badges/gpa.svg
+[codeclimate-url]: https://codeclimate.com/github/slahiri/ncmd
 [codacy-image]: https://api.codacy.com/project/badge/grade/d4a372fb631e48a69d290169660543b8
 [codacy-url]: https://www.codacy.com/app/siddhartha-lahiri/ncmd
-[testcoverage-image]: https://codeclimate.com/github/cli-utilities/ncmd/badges/coverage.svg
-[testcoverage-url]: https://codeclimate.com/github/cli-utilities/ncmd/coverage
+[testcoverage-image]: https://codeclimate.com/github/slahiri/ncmd/badges/coverage.svg
+[testcoverage-url]: https://codeclimate.com/github/slahiri/ncmd/coverage
 
 
 ## Installation
