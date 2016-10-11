@@ -9,6 +9,12 @@ This is a simple implementation of file management. The the current command will
 [![Code Climate][codeclimate-image]][codeclimate-url]
 [![Codacy Badge][codacy-image]][codacy-url]
 
+[![GitHub forks](https://img.shields.io/github/forks/slahiri/slahiri.github.io.svg?style=social&label=Fork)][gitHub-url]
+[![GitHub forks](https://img.shields.io/github/stars/slahiri/slahiri.github.io.svg?style=social&label=Star)][gitHub-url]
+[![GitHub watchers](https://img.shields.io/github/watchers/slahiri/slahiri.github.io.svg?style=social&label=Watch)][gitHub-url]
+[![GitHub followers](https://img.shields.io/github/followers/siddhartha-lahiri.svg?style=social&label=Follow)][gitHub-url]
+[![Twitter Follow](https://img.shields.io/twitter/follow/sid_2vicious.svg?style=social)][twitter-url]
+
 ## Installation
 
     $ npm install ncmd -g
@@ -39,4 +45,6 @@ This is a simple implementation of file management. The the current command will
 [codeclimate-image]: https://codeclimate.com/github/slahiri/ncmd/badges/gpa.svg
 [codeclimate-url]: https://codeclimate.com/github/slahiri/ncmd
 [codacy-image]: https://api.codacy.com/project/badge/grade/d4a372fb631e48a69d290169660543b8
-[codacy-url]: https://www.codacy.com/app/siddhartha-lahiri/ncmd
+[codacy-url]: https://www.codacy.com/app/slahiri/ncmd
+[gitHub-url]: https://github.com/slahiri/ncmd
+[twitter-url]: https://twitter.com/sid_2vicious
